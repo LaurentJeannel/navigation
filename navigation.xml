@@ -1,0 +1,48 @@
+       <item>relance ton système<tag>data.need="s_restart"</tag></item>
+	
+	
+ 	  <item>affiche le bureau<tag>data.valeur='win min "alltopnodesktop"'</tag></item>
+ 	  <item>va sur le bureau<tag>data.valeur='win min "alltopnodesktop"'</tag></item>
+	 
+	   <item>copie l'écran<tag>data.valeur="savescreenshot *clipboard*"</tag></item>
+	   	  
+	  <item>actualise<tag>data.valeur="sendkey f5 press"</tag></item>	  
+	  <item>fermer l'onglet<tag>data.valeur="sendkey ctrl down&sendkey w press&sendkey ctrl up"</tag></item>		  	
+	  <item>mode plein écran<tag>data.valeur="sendkey f11 press"</tag></item>	  	 
+
+<item>mode miroir gauche<tag>data.valeur="sendkey alt down &sendkey left press &sendkey alt up "</tag></item>		  	
+<item>mode miroir haut<tag>data.valeur="sendkey alt down &sendkey up press&sendkey alt up "</tag></item>	
+	  <item>onglet suivant<tag>data.valeur="sendkey ctrl down&sendkey tab press&sendkey ctrl up"</tag></item>
+	  <item>onglet précédent<tag>data.valeur="sendkey ctrl down&sendkey shift down&sendkey tab press&sendkey shift up&sendkey ctrl up"</tag></item>
+	  
+	  <item>touche valide<tag>data.valeur="sendkey enter press"</tag></item>
+	
+	  <item>touche entrée<tag>data.valeur="sendkey enter press"</tag></item>
+
+	  <item>affiche le dossier images<tag>data.valeurchemin="C:\\Users\\\Administrator\\Pictures"</tag></item>	 
+	  <item>affiche le dossier vidéos<tag>data.valeurchemin="C:\\Users\\\Administrator\\Videos"</tag></item>	
+	  <item>affiche le dossier musiques<tag>data.valeurchemin="C:\\Users\\\Administrator\\Music"</tag></item>
+	  <item>affiche le dossier document<tag>data.valeurchemin="C:\\Users\\\Administrator\\Documents"</tag></item>		  	  
+	  <item>affiche le dossier téléchargement<tag>data.valeurchemin="C:\\Users\\\Administrator\\Downloads"</tag></item>
+
+ 	  <item>coupe le son<tag>data.valeur="mutesysvolume 1"</tag></item>
+ 	  <item>mets le son<tag>data.valeur="mutesysvolume 0"</tag></item>
+	  
+	  <item>éteint le PC<tag>data.valeur="initshutdown {' EN COURS DE FERMETURE '} {5} {force}"</tag></item>	  
+	  
+	  <item>redémarre le PC<tag>data.valeur="initshutdown {' EN COURS DE RELANCE '} {5} {force} {reboot}"</tag></item>
+	
+	  
+	 
+	 <item>éteint l'écran<tag>data.valeur="monitor off"</tag></item>
+	 <item>allume l'écran<tag>data.valeur="monitor on"</tag></item>
+<item>écran de veille<tag>data.veille="mo"</tag></item>
+	 
+	 <item>ouvre le lecteur dvd<tag>data.valeur="cdrom open"</tag></item>
+	 <item>ferme le lecteur dvd<tag>data.valeur="cdrom close"</tag></item>
+	 
+	 <item>recharge les phrases<tag>data.valeurchargephrases="chargephrases"</tag></item>
+	 
+	<item>va sur le forum<tag>data.valeururl="http://mathilde.forumactif.com/"</tag></item>	 
+
+<item>va sur hangouts<tag>data.valeururl="https://hangouts.google.com/"</tag></item>	
