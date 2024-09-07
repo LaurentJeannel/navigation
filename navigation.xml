@@ -1,6 +1,7 @@
        <item>relance ton système<tag>data.need="s_restart"</tag></item>
-	
-	
+	<item>clic gauche<tag>data.valeur=""</tag></item>
+	<item>clic droit<tag>data.valeur="sendmouse right click"</tag></item>
+
  	  <item>affiche le bureau<tag>data.valeur='win min "alltopnodesktop"'</tag></item>
  	  <item>va sur le bureau<tag>data.valeur='win min "alltopnodesktop"'</tag></item>
 	 
@@ -43,6 +44,6 @@
 	 
 	 <item>recharge les phrases<tag>data.valeurchargephrases="chargephrases"</tag></item>
 	 
-	<item>va sur le forum<tag>data.valeururl="http://mathilde.forumactif.com/"</tag></item>	 
+	<item>va sur le forum<tag>data.valeururl="https://jarvis.forumactif.com/"</tag></item>	 
 
 <item>va sur hangouts<tag>data.valeururl="https://hangouts.google.com/"</tag></item>	

@@ -42,7 +42,22 @@ if(data.valeurchemin!==undefined){
 
 if(data.valeururl!==undefined){
 	
-	var process='chrome '+data.valeururl; var child = exec(process);console.log('ddddddddddddd')
+	var process='start chrome '+data.valeururl; var child = exec(process);console.log('ddddddddddddd')
+
+//var exec = require('child_process').exec;
+  //var proc = 'start firefox -new-window '+url ;
+ // var proc = 'start chrome --new-tab "'+url+'"'
+ // console.log(proc)
+  //var child = exec(proc);
+
+
+
+
+
+
+
+
+
 	 return false
 }//fin if data.valeururl
 
@@ -82,11 +97,11 @@ var data2=data1.split('&') ; var exec = require('child_process').exec ; var path
 //var nircmd = path.resolve('%CD%', './plugins/navigation/nircmd/nircmd.exe').replace('\\%CD%', '');
 
 var procclick1=nircmd + ' sendmouse left click '//focus fenetre
-var child=exec(procclick1)
+//var child=exec(procclick1)
 
 console.log(procclick1)
 console.log(data2)
-		for(var z=0;z<data2.length;z++){
+		for(var z=0;z<data2.length;z++){if(data2[z]==""){return false}
 				var dt = new Date();
 				dt.setTime(dt.getTime() + 100);
 				while (new Date().getTime() < dt.getTime())
